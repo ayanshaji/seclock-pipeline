@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "ayanshaji/seclock"
+        IMAGE_NAME = "ayanshaji"
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
